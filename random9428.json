@@ -1,0 +1,41 @@
+{
+  "Ciphers": [
+    52393,
+    49161,
+    49162,
+    4865,
+    60,
+    52392,
+    10,
+    49195
+  ],
+  "CompressionMethods": "AA==",
+  "RenegotiationInfo": false,
+  "Renegotiation": 0,
+  "SignatureAlgorithms": [],
+  "StatusRequest": true,
+  "Sct": false,
+  "SessionTicket": false,
+  "Alpn": [
+    "http/1.1",
+    "http/1.0",
+    "h2"
+  ],
+  "EcPointFormats": "",
+  "PskKeyExchangeModes": "",
+  "SupportedVersions": [
+    771
+  ],
+  "SupportedGroups": [
+    29,
+    24
+  ],
+  "Padding": 0,
+  "RecordSizeLimit": 64,
+  "Version": 772,
+  "ExtendedMasterSecret": false,
+  "MaxFragmentLength": 0,
+  "KeyShares": 1,
+  "GreaseExtension": 0,
+  "ReversedExtensionOrder": true
+}
