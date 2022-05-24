@@ -1,1 +1,20 @@
-theme: jekyll-theme-minimal
+title: Active TLS Stack Fingerprinting
+
+author: Markus Sosnowski
+email: sosnowski@net.in.tum.de
+
+description: >-
+  Characterizing TLS Server Deployments at Scale
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://active-tls-fingerprinting.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 
+github_username:  syncall
+
+header_pages:
+  - pages/data.md
+  - pages/pipeline.md
+
+# Build settings
+theme: minima
+#plugins:
+#  - jekyll-feed
