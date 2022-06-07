@@ -17,6 +17,7 @@ For the analyses of the paper we have developed [10 general-purpose Client Hello
 
 Active TLS fingerprinting with the goscanner is desigend to be used in a more comprehensive measurement pipeline.
 The steps to reproduce the fingerprinting used in the paper are described under [Pipeline](/pipeline/).
+If you use the goscanner for fingerprinting, please cite our paper.
 
 ## Paper
 
