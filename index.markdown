@@ -6,6 +6,8 @@ Additional material of the publication *Active TLS Stack Fingerprinting:
 Characterizing TLS Server Deployments at Scale* and access to published
 data and tools.
 
+The paper was published at the at the [TMA 2022](https://tma.ifip.org/2022/) and received the **Best Paper Award**.
+
 ## Measurement Pipeline and Software
 
 For the analyses of the paper we have developed [10 general-purpose Client Hellos](https://github.com/active-tls-fingerprinting/client-hellos) and extended the [Goscanner](https://github.com/tumi8/goscanner) with a [custom TLS library](https://github.com/tumi8/goscanner/tree/master/tls) and TLS fingerprinting functionalities:
@@ -24,9 +26,24 @@ If you use the goscanner for fingerprinting, please cite our paper.
 **Abstract** 
 Active measurements can be used to collect server characteristics on a large scale. This kind of metadata can help discovering hidden relations and commonalities among server deployments offering new possibilities to cluster and classify them. As an example, identifying a previously-unknown cybercriminal infrastructures can be a valuable source for cyber-threat intelligence. We propose herein an active measurement-based methodology for acquiring Transport Layer Security (TLS) metadata from servers and leverage it for their fingerprinting. Our fingerprints capture the characteristic behavior of the TLS stack primarily caused by the implementation, configuration, and hardware support of the underlying server. Using an empirical optimization strategy that maximizes information gain from every handshake to minimize measurement costs, we generated 10 general-purpose Client Hellos used as scanning probes to create a large database of TLS configurations used for classifying servers. We fingerprinted 28 million servers from the Alexa and Majestic toplists and two Command and Control (C2) blocklists over a period of 30 weeks with weekly snapshots as foundation for two long-term case studies: classification of Content Delivery Network and C2 servers. The proposed methodology shows a precision of more than 99 % and enables a stable identification of new servers over time. This study describes a new opportunity for active measurements to provide valuable insights into the Internet that can be used in security-relevant use cases.
 
-**Paper** Read the final version of our paper at the **[[TMA]](https://tma.ifip.org/2022/)**
+**Paper** Read the final version of our paper published over ifip: **[[PDF]](https://tma.ifip.org/2022/wp-content/uploads/sites/11/2022/06/tma2022-paper35.pdf)**
 
 **Authors** [Markus Sosnowski](https://net.in.tum.de/~sosnowski), [Johannes Zirngibl](https://net.in.tum.de/~zirngibl), [Patrick Sattler](https://net.in.tum.de/~sattler), [Georg Carle](https://net.in.tum.de/~carle), Claas Grohnfeldt, Michele Russo, and Daniele Sgandurra
+
+## Referencing our Work
+
+If you are referring to our work or use the collected data in your publication, please refer to it with the following reference [[bib]]({{ site.baseurl }}{% link assets/sosnowski2022tlsfingerprinting.bib %}):
+
+```bib
+{% raw %}@inproceedings{sosnowski2022tlsfingerprinting,
+  author = {Sosnowski, Markus and Zirngibl, Johannes and Sattler, Patrick and Carle, Georg and Grohnfeldt, Claas and Russo, Michele and Sgandurra, Daniele},
+  title = {{Active TLS Stack Fingerprinting: Characterizing TLS Server Deployments at Scale}},
+  booktitle = {Proc. Network Traffic Measurement and Analysis Conference (TMA)},
+  year = {2022},
+  month = jun,
+}{% endraw %}
+```
+
 
 ## Reproducibility
 
