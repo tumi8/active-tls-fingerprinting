@@ -8,6 +8,8 @@ data and tools.
 
 The paper was published at the at the [TMA 2022](https://tma.ifip.org/2022/) and received the **Best Paper Award**.
 
+An **Extended Version** is planned, based on new data and a new time frame. We will publish our measurement results here. **(TBD)**.
+
 ## Measurement Pipeline and Software
 
 For the analyses of the paper we have developed [10 general-purpose Client Hellos](https://github.com/active-tls-fingerprinting/client-hellos) and extended the [Goscanner](https://github.com/tumi8/goscanner) with a [custom TLS library](https://github.com/tumi8/goscanner/tree/master/tls) and TLS fingerprinting functionalities:
