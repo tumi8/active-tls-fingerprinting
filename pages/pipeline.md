@@ -2,6 +2,8 @@
 layout: page
 title: Measurement Pipeline
 permalink: /pipeline/
+order: 3
+toc: Pipeline
 ---
 
 Our measurement and fingerprinting pipeline is separated into the following steps:

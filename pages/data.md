@@ -2,6 +2,8 @@
 layout: page
 title: Data
 permalink: /data/
+order: 2
+toc: 'Data'
 ---
 
 This pages describes the data published for the TMA Paper *Active TLS Stack Fingerprinting: 

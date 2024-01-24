@@ -1,13 +1,12 @@
 title: Active TLS Fingerprinting
 
 author: Markus Sosnowski
-email: sosnowski@net.in.tum.de
 
 description: >-
   Characterizing TLS Server Deployments at Scale
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://active-tls-fingerprinting.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
+twitter_username:
 github_username:  syncall
 
 header_pages:
@@ -15,6 +14,9 @@ header_pages:
   - pages/pipeline.md
 
 # Build settings
-theme: minima
-#plugins:
-#  - jekyll-feed
+remote_theme: tumi8/tumi8-theme
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
