@@ -32,7 +32,11 @@ Active measurements can be used to collect server characteristics on a large sca
 
 **Paper** Read the final version of our paper published over ifip: **[[PDF]](https://tma.ifip.org/2022/wp-content/uploads/sites/11/2022/06/tma2022-paper35.pdf)**
 
-**Authors** [Markus Sosnowski](https://net.in.tum.de/~sosnowski), [Johannes Zirngibl](https://net.in.tum.de/~zirngibl), [Patrick Sattler](https://net.in.tum.de/~sattler), [Georg Carle](https://net.in.tum.de/~carle), Claas Grohnfeldt, Michele Russo, and Daniele Sgandurra
+**Authors**
+{% for author in site.data.authors.list %}<a style="border-bottom: none" href="https://orcid.org/{{author.orcid}}">
+<img src="assets/ORCIDiD_icon16x16.png" style="width: 1em; margin-inline-start: 0.5em;" alt="ORCID iD icon"/></a>
+[{{author.name}}](https://orcid.org/{{author.orcid}}){% if author.name contains "Sgan" %}{% else %}, {% endif %}
+{% endfor %}
 
 ## Referencing our Work
 
