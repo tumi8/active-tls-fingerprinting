@@ -16,11 +16,11 @@ Our measurement and fingerprinting pipeline is separated into the following step
 
 Every domain from the input sets needs to be resolved first. For this have used a local [unbound](https://www.nlnetlabs.nl/projects/unbound/about/) server and [massdns](https://github.com/blechschmidt/massdns). The following command can generate the appropriate input file for the TLS scanner.
 
-{% highlight bash %}
+```bash
 bin/massdns -r local_resolvers.txt input_domains.txt -q -o J \
   | jq '[.name,.data.answers[-1].data]  | @csv' -r \
   | csvtool col 1,2 - | awk -F, '$2!=""' > input.csv
-{% endhighlight %}
+```
 
 This input file is then joined with the IP address inputs we collect from the blocklists (because the lists do not contain any domain names we could resolve).
 
@@ -38,7 +38,7 @@ We shuffle the input to distribute the load among the scanned servers.
 
 To scan the targets we configure the TLS scanner with the following configuration:
 
-{% highlight conf %}
+```conf
 ; Input file with IP,domain,client hello tuples
 input-file = "input-full.csv"
 
@@ -60,7 +60,7 @@ client-hello-dir = "client-hellos"
 ; use the TLS and HTTP function of the scanner
 scans = "tls"
 scans = "http"
-{% endhighlight %}
+```
 
 ### Post processing
 
