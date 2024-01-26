@@ -14,7 +14,7 @@ An **Extended Version** is planned, based on new data and a new time frame. We w
 
 ## Measurement Pipeline and Software
 
-For the analyses of the paper we have developed [10 general-purpose Client Hellos](https://github.com/active-tls-fingerprinting/client-hellos) and extended the [Goscanner](https://github.com/tumi8/goscanner) with a [custom TLS library](https://github.com/tumi8/goscanner/tree/master/tls) and TLS fingerprinting functionalities:
+For the analyses of the paper we have developed [10 general-purpose Client Hellos](https://github.com/tumi8/active-tls-fingerprinting) and extended the [Goscanner](https://github.com/tumi8/goscanner) with a [custom TLS library](https://github.com/tumi8/goscanner/tree/master/tls) and TLS fingerprinting functionalities:
 
 - Export of fingerprintable TLS metadata
 - Ability to define arbitrary Client Hellos per target
