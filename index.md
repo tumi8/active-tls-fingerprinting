@@ -22,7 +22,7 @@ For the analyses of the paper we have developed [10 general-purpose Client Hello
 - Input list preparation
 
 Active TLS fingerprinting with the goscanner is desigend to be used in a more comprehensive measurement pipeline.
-The steps to reproduce the fingerprinting used in the paper are described under [Pipeline](/pipeline/).
+The steps to reproduce the fingerprinting used in the paper are described under [Pipeline]({{site.baseurl}}{% link pages/pipeline.md %}).
 If you use the goscanner for fingerprinting, please cite our paper.
 
 ## Paper
@@ -58,5 +58,5 @@ If you are referring to our work or use the collected data in your publication, 
 Our data are published at [TUM University Library](https://mediatum.ub.tum.de/1658435) to enable reproducible analyses and to guarantee long-term availability.<br>
 Dataset DOI: [10.14459/2022mp1658435](https://doi.org/10.14459/2022mp1658435)
 
-Details of the data are described [here](/data/).
+Details of the data are described [here]({{site.baseurl}}{% link pages/data.md %}).
 

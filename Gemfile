@@ -7,7 +7,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", ">= 4.3"
+gem "jekyll", "< 4.0"
 
 
 
@@ -18,3 +18,5 @@ gem "google-protobuf", "<=3.22"
 
 gem "jekyll-seo-tag", "~> 2.1"
 gem "jekyll-remote-theme", "~> 0.4.2"
+
+gem "kramdown-parser-gfm", "~> 1.1"
