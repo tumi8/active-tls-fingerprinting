@@ -6,7 +6,6 @@ description: "Additional material of the publication \"Active TLS Stack Fingerpr
 ---
 
 
-
 The paper was published at the [TMA 2022](https://tma.ifip.org/2022/) and received the **Best Paper Award**.
 
 An **Extended Version** is planned, based on new data and a new time frame. We will publish our measurement results here. **(TBD)**.
