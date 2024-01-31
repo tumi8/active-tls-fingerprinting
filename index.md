@@ -2,11 +2,10 @@
 layout: page
 toc: Home
 order: 1
+description: "Additional material of the publication \"Active TLS Stack Fingerprinting: Characterizing TLS Server Deployments at Scale\" and access to published data and tools."
 ---
 
-Additional material of the publication *Active TLS Stack Fingerprinting: 
-Characterizing TLS Server Deployments at Scale* and access to published
-data and tools.
+
 
 The paper was published at the [TMA 2022](https://tma.ifip.org/2022/) and received the **Best Paper Award**.
 

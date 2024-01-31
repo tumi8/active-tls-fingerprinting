@@ -4,10 +4,10 @@ title: Data
 permalink: /data/
 order: 2
 toc: 'Data'
+description: "This pages describes the data published for the TMA Paper \"Active TLS Stack Fingerprinting: Characterizing TLS Server Deployments at Scale\"."
 ---
 
-This pages describes the data published for the TMA Paper *Active TLS Stack Fingerprinting: 
-Characterizing TLS Server Deployments at Scale*.
+
 
 The data set contains the raw measurement data from the section *Longitudinal Study of Toplists and Blocklists*.
 The dataset consists of 25 measurements and the following files for each measurement:

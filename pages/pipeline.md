@@ -4,9 +4,9 @@ title: Measurement Pipeline
 permalink: /pipeline/
 order: 3
 toc: Pipeline
+description: "Our measurement and fingerprinting pipeline is separated into the following steps:"
 ---
 
-Our measurement and fingerprinting pipeline is separated into the following steps:
 - Domain resolution
 - Input preparation
 - TLS scanning
