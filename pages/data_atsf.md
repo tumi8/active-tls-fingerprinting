@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Data
-permalink: /data/
-order: 2
-toc: 'Data'
+title: Active TLS Stack Fingerprinting Data
+permalink: /data/atsf/
 description: "This pages describes the data published for the TMA Paper \"Active TLS Stack Fingerprinting: Characterizing TLS Server Deployments at Scale\"."
 ---
+
+Our data are published at [TUM University Library](https://mediatum.ub.tum.de/1658435) to enable reproducible analyses and to guarantee long-term availability.<br>
+Dataset: [DOI:10.14459/2022mp1658435](https://doi.org/10.14459/2022mp1658435)
 
 
 
